@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/search_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SearchActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:text="@string/main_title"
+        style="@style/textMessageTitle" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:text="@string/search_title"
+        style="@style/textMessageMain"
+        android:drawableLeft="@drawable/search"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_bar_layout"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_bar"
+            android:layout_gravity="center"
+            android:inputType="text"
+            android:hint="@string/helpText"
+            android:lines="1"
+            android:maxLength="15"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/white"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/clearIcon"
+            android:layout_gravity="center"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="215dp">
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="96dp"
+            android:id="@+id/btnBack"
+            style="@style/mainButton"
+            android:text="@string/buttonSettingsBack"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

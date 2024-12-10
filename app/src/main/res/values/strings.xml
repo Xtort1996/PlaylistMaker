@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">PlaylistMaker</string>
+    <!-- page title text -->
+    <string name="main_title">PlaylistMaker</string>
+    <string name="settings_title">Settings</string>
+    <string name="search_title">Search</string>
+    <string name="media_title">Media</string>
+    <!-- settings text -->
+    <string name="buttonMainSearch">Search</string>
+    <string name="buttonMainMedia">Media</string>
+    <string name="buttonMainSettings">Settings</string>
+    <string name="buttonSettingsLight">Light</string>
+    <string name="buttonSettingsDark">Dark</string>
+    <string name="buttonSettingsBack">Back</string>
+    <string name="buttonSettingsShare">Share</string>
+    <string name="buttonSettingsFeedBack">Feedback</string>
+    <string name="buttonSettingsUAС">User Agreement Contract</string>
+    <string name="textSettingsTheme">Choose App Theme</string>
+    <!-- search text -->
+    <string name="helpText">Search...</string>
+    <!-- settings paths and messages for buttons -->
+    <string name="supportEmail">oss6xx@gmail.com</string>
+    <string name="supportMessageBody">Работает!!</string>
+    <string name="supportMessageSubject">Сообщение разработчикам PlaylistMaker</string>
+    <string name="userAgreementContractLink">https://vivt.ru/</string>
+    <string name="shareMessage">ИВТ212 Курлыкин А.О.</string>
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/settings_screen"
+    tools:context=".SettingsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:text="@string/main_title"
+        style="@style/textMessageTitle"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_title"
+        android:layout_marginStart="25dp"
+        style="@style/textMessageMain"
+        android:drawableLeft="@drawable/settings__1_"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textSettingsTheme"
+        style="@style/textMessageMain"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp">
+
+        <Button
+            android:layout_width="185dp"
+            android:layout_height="110dp"
+            android:id="@+id/btnThemeD"
+            android:drawableLeft="@drawable/themeday"
+            style="@style/mainButton"
+            android:text="@string/buttonSettingsLight"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="185dp"
+            android:layout_height="110dp"
+            android:id="@+id/btnThemeN"
+            android:drawableLeft="@drawable/themenight"
+            style="@style/mainButton"
+            android:text="@string/buttonSettingsDark"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp">
+
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnBack"
+            style="@style/mainButton"
+            android:text="@string/buttonSettingsBack"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnShare"
+            style="@style/mainButton"
+            android:text="@string/buttonSettingsShare"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnFeedback"
+            style="@style/mainButton"
+            android:text="@string/buttonSettingsFeedBack"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnUAС"
+            style="@style/mainButton"
+            android:text="@string/buttonSettingsUAС"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>
